@@ -12,6 +12,7 @@ lazy val commonSettings = Seq(
       "org.deeplearning4j"            % "deeplearning4j-core"           % "0.8.0",
       "org.deeplearning4j"            % "deeplearning4j-modelimport"    % "0.8.0",
       "org.nd4j"                      % "nd4j-native-platform"          % "0.8.0",
+      "org.typelevel"                %% "cats"                          % "0.9.0",
       "org.slf4j"                     % "slf4j-log4j12"                 % "1.7.16"
     )
 )
